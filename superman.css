@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	height: 100vh;
+	background-image: radial-gradient(circle, #431281, #442296, #4131ac, #3a40c3, #284fda);
+}
+.supperman img{
+	width: 150px;
+	transform: rotate(5deg);
+	position: absolute;
+	top:55%;
+	animation: animationSupperman 8s infinite linear;
+}
+.star{
+	position: absolute;
+	width: 3px;
+	height: 3px;
+	background-color: red;
+}
+@keyframes animationSupperman{
+	0%{
+		left: -150px;
+	}
+	100%{
+		left: 100%;
+	}
+}
