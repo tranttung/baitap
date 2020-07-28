@@ -23,3 +23,5 @@ document.addEventListener("DOMContentLoaded",function(){
     setTimeout(function(){
       star.remove();
     },10000)
+  }
+});

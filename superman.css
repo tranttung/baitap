@@ -14,10 +14,10 @@ body{
 
 .supper-man img{
   width:150px;
-  transform:rotate(25deg);
+  transform:rotate(5deg);
   position:absolute;
   top:55%;
-  animation:animationSupperman 6s infinite linear;
+  animation:animationSupperman 10s infinite linear;
 }
 .star{
   position:absolute;
