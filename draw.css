@@ -1,0 +1,41 @@
+body{
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+section{
+  display:grid;
+  grid-template-columns:repeat(25,15px);
+  grid-template-rows:repeat(30,15px);
+}
+div{
+  border:1px solid #000;
+}
+.black{
+  background:black;
+}
+.green1{
+  background: DarkGreen;
+}
+.green2{
+  background: #00CD00;
+}
+.green3{
+  background: LawnGreen;
+}
+.orange1{
+  background:#8B2500;
+}
+.orange2{
+  background:#FF4500;
+}
+.orange3{
+  background: DarkOrange;
+}
+.Blush{
+  background:#FFCC99;
+}

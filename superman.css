@@ -19,6 +19,9 @@ body{
   top:55%;
   animation:animationSupperman 10s infinite linear;
 }
+
+
+}
 .star{
   position:absolute;
   width:3px;
